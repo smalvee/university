@@ -17,8 +17,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function(){
+    return view('about');
+});
+
+// Route::get('/addproperty', function(){
+//     return view('addproperty');
+// });
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+Route::get('/addproperty', function () {
+    return view('addproperty');
+})->middleware(['auth'])->name('addproperty');
 
 require __DIR__.'/auth.php';

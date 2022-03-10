@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+}
+
+body {
+    background: #F4F4F4;
+}
+
+.wrap {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1230px;
+
+}
+ .cover-lists {
+	background-color: #fff;
+	padding: 30px 22px;
+	border-radius: 4px;
+    box-shadow: 0px 0px 10px #ebebeb;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.cover-lists p {
+	margin-top: 0;
+	margin-bottom: 6px;
+	font-size: 14px;
+}
+.cover-lists h4 {
+	font-size: 20px;
+}
+.cover-lists h5 {
+	font-size: 17px;
+}
+.cover-lists .propic {
+	max-width: 250px;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 30px;
+	color: #696969;
+	font-size: 15px;
+	font-family: "AnyConv.com__AvenirLTStd-Roman";
+}
